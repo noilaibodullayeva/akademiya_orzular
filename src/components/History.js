@@ -17,7 +17,7 @@ function History() {
         <p>Join Newslatter</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores modi <br/> ducimus nostrum quasi accusamus nihil nisi.</p>
         <div className='gap-[20px]'>
-            <input type="text" placeholder='Enter your email' className='width-[200px] px-[100px] py-[15px] rounded-full mx-[20px]' />
+            <input type="text" placeholder='Enter your email' className='width-[200px] py-[15px] pl-[25px] rounded-full pr-[150px] mr-[15px]' />
             <button className='viewbutton'>View Details</button>
         </div>
       </div>

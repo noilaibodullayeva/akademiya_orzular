@@ -22,13 +22,13 @@ function Published() {
     return (
         <div className='px-[80px] py-[20px] bg-[#FEF4F4]'>
             <div className='flex xl:flex-row flex-col justify-between items-center py-[20px]'>
-                <p className='text-[35px] text-[black]-500'>Latest published items</p>
+                <p className='text-[35px] text-[black]-500 titleBestt'>Latest published items</p>
                 <div className='text-[20px] cursor-pointer flex gap-4  '>
-                   <button className='buttonPublish'><a href="#">All</a></button>  
-                   <button className='buttonPublish'><a href="#">Horror</a></button>  
-                   <button className='buttonPublish'><a href="#">Thriller</a></button>  
-                   <button className='buttonPublish'><a href="#">Science Finction</a></button>  
-                   <button className='buttonPublish'><a href="#">History</a></button>  
+                    <button className='buttonPublish'><a href="#">All</a></button>
+                    <button className='buttonPublish'><a href="#">Horror</a></button>
+                    <button className='buttonPublish'><a href="#">Thriller</a></button>
+                    <button className='buttonPublish'><a href="#">Science Finction</a></button>
+                    <button className='buttonPublish'><a href="#">History</a></button>
                 </div>
             </div>
 
@@ -70,21 +70,21 @@ function Published() {
                                 <SwiperSlide>
                                     <div>
                                         <img src={item.img} alt="book" />
-                                        <p className='text-black-700 text-[20px]'>{item.title}</p>
-                                        <p className='text-#9EA1AF-300 text-[16px]'>{item.author}</p>
-                                        <div className='flex flex-row items-center justify-between px-[10px]'>
+                                        <p className='text-left moon'>{item.title}</p>
+                                        <p className='text-left author'>{item.author}</p>
+                                        <div className='flex flex-row items-center justify-between '>
                                             <div>
                                                 <div>
-                                                    <i className="fa-solid fa-star"></i>
-                                                    <i className="fa-solid fa-star"></i>
-                                                    <i className="fa-solid fa-star"></i>
-                                                    <i className="fa-solid fa-star"></i>
-                                                    <i className="fa-solid fa-star-half-stroke"></i>
+                                                    <i className="fa-solid fa-star iconBest"></i>
+                                                    <i className="fa-solid fa-star iconBest"></i>
+                                                    <i className="fa-solid fa-star iconBest"></i>
+                                                    <i className="fa-solid fa-star iconBest"></i>
+                                                    <i className="fa-solid fa-star-half-stroke iconBest"></i>
                                                 </div>
-                                                <p>(<span>120</span> Review)</p>
+                                                <p className='text-[#9498a7] text-[14px]'>(<span className='text-[12px] text-[#ff7b2e]'>120</span> Review)</p>
                                             </div>
                                             <div>
-                                                <p>$50</p>
+                                                <p className='text-[25px] font-semibold text-[#ff7b2e]'>$50</p>
                                             </div>
                                         </div>
 

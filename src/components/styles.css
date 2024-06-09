@@ -1,61 +1,65 @@
   .swiper {
-      width: 100%;
-      height: 100%;
+    width: 100%;
+    height: 100%;
   }
 
   .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      /* background: #fff; */
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
 
-      /* Center slide text vertically */
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .swiper-button-prev {
-      color: white !important
+    color: white !important
   }
 
   .swiper-button-next {
-      color: white !important
+    color: white !important
   }
 
   .buttonPublish {
-      border: 1px solid #454E6D;
-      background-color: #fff;
-      color: #454E6D;
-      font-size: 14px;
-      padding: 10px 20px;
-      border-radius: 25px;
+    border: 1px solid #454E6D;
+    background-color: #fff;
+    color: #454E6D;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 25px;
   }
 
   .buttonPublish:active {
-      background-color: red;
-      color: #fff;
+    background-color: red;
+    color: #fff;
   }
 
   .borderbrowse {
-      border: 1px solid #FC1616;
-      color: #FC1616;
-      background-color: #fff;
-      font-size: 20px;
-      padding: 15px 35px;
-      border-radius: 25px;
+    border: 1px solid #FC1616;
+    color: #FC1616;
+    background-color: #fff;
+    font-size: 20px;
+    padding: 15px 35px;
+    border-radius: 25px;
+    margin: 45px 0;
   }
 
   .borderbrowse:hover {
-      color: #fff;
-      background-color: #FC1616;
+    color: #fff;
+    background-color: #FC1616;
   }
+
+
+  /* history  */
 
   .back1History {
     background-image: url(../assets/wants-bg1.jpg.webp);
@@ -90,7 +94,7 @@
     border-radius: 25px;
   }
 
-  .historyback3{
+  .historyback3 {
     background-image: url(../assets/section-bg1.jpg.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,4 +104,73 @@
     height: 300px;
     color: #fff;
     justify-content: center;
+  }
+
+
+  /* footer  */
+
+  .iconFooter {
+    color: #9498A7;
+    font-size: 20px;
+    border: 1px solid #9498A7;
+    border-radius: 50%;
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    align-self: center;
+  }
+
+  .iconFooter:hover {
+    color: #fff;
+    background-color: #FC1616;
+    border: 1px solid #FC1616;
+
+  }
+
+  .footertitle {
+    font-family: "Roboto", sans-serif;
+    color: #232F55;
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+
+  .footerU {
+    color: #454E6D;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: underline transparent;
+  }
+
+  /* best selling books  */
+
+  .moon {
+    font-family: "Playfair Display", serif;
+    color: #1a1a1a;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 9px;
+    margin-top: 12px;
+  }
+
+  .moon:hover {
+    color: #ff5700;
+  }
+
+  .author {
+    color: #9498A7;
+    font-size: 14px;
+    margin-bottom: 11px;
+  }
+
+  .iconBest {
+    font-style: 13px;
+    color: #ff5700;
+  }
+
+  .titleBestt {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
   }

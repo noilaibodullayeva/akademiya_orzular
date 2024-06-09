@@ -9,32 +9,32 @@ import Img6 from "../assets/best_selling6.jpg.webp"
 export const data = [
     {
         img: Img1 ,
-        title: 'moon dance',
+        title: 'Moon dance',
         author: 'J. R rain',
     },
     {
         img: Img2,
-        title: 'moon dance',
+        title: 'Moon dance',
         author: 'J. R rain',
     },
     {
         img: Img3,
-        title: 'moon dance',
+        title: 'Moon dance',
         author: 'J. R rain',
     },
     {
         img: Img4,
-        title: 'moon dance',
+        title: 'Moon dance',
         author: 'J. R rain',
     },
     {
         img: Img5 ,
-        title: 'moon dance',
+        title: 'Moon dance',
         author: 'J. R rain',
     },
     {
         img: Img6,
-        title: 'moon dance',
+        title: 'Moon dance',
         author: 'J. R rain',
     },
 ] 

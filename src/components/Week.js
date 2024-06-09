@@ -21,7 +21,7 @@ function Week() {
         <div className='flex xl:flex-row flex-col justify-between items-center w-[100%] px-[80px] gap-[70px] py-[40px]'>
             <div className='xl:w-[70%] w-[100%]  '>
                 <div className='flex xl:flex-row flex-col justify-between items-center py-[20px]'>
-                    <p className='xl:text-[35px] text-[25px] text-[black]-500'>Featured This Week</p>
+                    <p className=' text-[30px] titleBestt'>Featured This Week</p>
                     <p className='text-[20px] cursor-pointer '>View All</p>
                 </div>
                 <div className='bg-[#FF1616] p-[10px] '>
@@ -37,13 +37,13 @@ function Week() {
                             Indexdata.map((item) => {
                                 return (
                                     <SwiperSlide >
-                                        <div className='bg-[red] flex xl:flex-row flex-col items-center justify-between xl:gap-[100px]  '>
-                                            <img src={item.img} alt="img book" className='py-[15px] w-[40%]' />
-                                            <div className='w-[60%]'>
-                                                <h1>{item.title}</h1>
-                                                <p>{item.author}</p>
-                                                <p>{item.price}</p>
-                                                <div>
+                                        <div className='bg-[red] flex xl:flex-row flex-col items-center justify-between xl:gap-[100px] text-[#fff]  '>
+                                            <img src={item.img} alt="img book" className='py-[15px] w-[300px] h-[350px]' />
+                                            <div className=''>
+                                                <h1 className='text-[35px]'>{item.title}</h1>
+                                                <p className='text-16px font-sans'>{item.author}</p>
+                                                <p className='font-bold text-[25px]'>{item.price}</p>
+                                                <div >
                                                     <i className="fa-solid fa-star"></i>
                                                     <i className="fa-solid fa-star"></i>
                                                     <i className="fa-solid fa-star"></i>
