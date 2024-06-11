@@ -4,10 +4,14 @@ import History from './components/History';
 import Published from './components/Published';
 import Week from './components/Week';
 import Footer from './components/footer';
+import Header from './components/header';
+import HomePageList1 from './components/homePageList1';
 
 function App() {
   return (
     <div className="App">
+      <Header/>
+      <HomePageList1/>
       <BestSelling/>
       <Week/>
       <Published/>

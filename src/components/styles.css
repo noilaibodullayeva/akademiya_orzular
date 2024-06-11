@@ -29,6 +29,48 @@
     color: white !important
   }
 
+  .fontFamily{
+    font-family: "Playfair Display", serif;
+  }
+
+  /* home page 1 */
+
+  .swiperback {
+    background-image: url(../assets//home-1.jpg) !important;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .swiperback2 {
+    background-image: url(../assets//home-2.jpg) !important;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .swiperback3 {
+    background-image: url(../assets//home-3.jpg) !important;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .swiper-pagination-bullets .swiper-pagination-bullet {
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+
+  /* home page list finished */
+
+
   .buttonPublish {
     border: 1px solid #454E6D;
     background-color: #fff;
