@@ -17,7 +17,7 @@ import { data } from "./data"
 function BestSelling() {
 
   return (
-    <div className='px-[80px] py-[20px] bg-[#FEF4F4]'>
+    <div className='xl:px-[80px] py-[20px] bg-[#FEF4F4]'>
       <p className='text-[30px] text-black-900 mb-[22px] titleBestt '>Best Selling Books</p>
       <div className='flex gap-[5px] py-[40px]'>
         <Swiper

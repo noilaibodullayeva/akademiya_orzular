@@ -17,7 +17,7 @@ function App() {
       <Published/>
       <History/>
       <Footer/>
-      <p className='bg-[#FEF4F4] text-black text-center py-[40px] font-semibold'>Copyright ©2024 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by Colorlib</p>
+      <p className='bg-[#FEF4F4] text-black text-center xl:px-0 px-[20px] py-[40px] font-semibold'>Copyright ©2024 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by Colorlib</p>
     </div>
   );
 }

@@ -20,11 +20,11 @@ import { FreeMode, Autoplay } from 'swiper/modules';
 function Published() {
 
     return (
-        <div className='px-[80px] py-[20px] bg-[#FEF4F4]'>
+        <div className='xl:px-[80px] px-[10px] py-[20px] bg-[#FEF4F4]'>
             <div className='flex xl:flex-row flex-col justify-between items-center py-[20px]'>
                 <p className='text-[35px] text-[black]-500 titleBestt'>Latest published items</p>
-                <div className='text-[20px] cursor-pointer flex gap-4  '>
-                    <button className='buttonPublish'><a href="#">All</a></button>
+                <div className='text-[20px] cursor-pointer flex xl:gap-4 gap-[5px]  '>
+                    <button className='buttonPublish '><a href="#">All</a></button>
                     <button className='buttonPublish'><a href="#">Horror</a></button>
                     <button className='buttonPublish'><a href="#">Thriller</a></button>
                     <button className='buttonPublish'><a href="#">Science Finction</a></button>

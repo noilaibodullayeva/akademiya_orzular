@@ -12,14 +12,14 @@ import { Pagination } from 'swiper/modules';
 
 function HomePageList1() {
     return (
-        <div className='flex flex-col gap-[20px] bg-[#FEF4F4] py-[20px]'>
-            <div className='flex flex-row justify-center gap-[20px] text-[#232f55]  hover:text-[#FF1616]' >
-                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] font-semibold'>Home</p>
-                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] font-semibold'>Categories</p>
-                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] font-semibold'>About</p>
-                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] font-semibold'>Pages</p>
-                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] font-semibold'>Blog</p>
-                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] font-semibold'>Contact</p>
+        <div className='flex flex-col gap-[20px] bg-[#FEF4F4] py-[20px] px-0'>
+            <div className='flex flex-row justify-center xl:gap-[20px] gap-[10px] text-[#232f55]  hover:text-[#FF1616]' >
+                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] xl:font-semibold'>Home</p>
+                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] xl:font-semibold'>Categories</p>
+                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] xl:font-semibold'>About</p>
+                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] xl:font-semibold'>Pages</p>
+                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] xl:font-semibold'>Blog</p>
+                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] xl:font-semibold'>Contact</p>
             </div>
             <div className='h-[600px] xl:px-[100px]'>
                 <Swiper
