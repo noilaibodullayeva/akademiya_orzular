@@ -12,7 +12,6 @@ function App() {
     <div className="App">
       <Header/>
       <HomePageList1/>
-      <BestSelling/>
       <Week/>
       <Published/>
       <History/>
