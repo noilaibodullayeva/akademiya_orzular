@@ -30,15 +30,13 @@ export default function Header() {
                 <p href="/" className='logo_name'>ORZULAR AKADEMIYASI</p>
             </div>
             <div className='flex flex-row justify-center xl:gap-[20px] gap-[10px] text-[#232f55]  hover:text-[#FF1616] mt-[10px] cursor-pointer'  >
-                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] xl:font-semibold'>Home</p>
-                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] xl:font-semibold'>Categories</p>
-                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] xl:font-semibold'>About</p>
-                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] xl:font-semibold'>Pages</p>
-                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] xl:font-semibold'>Blog</p>
-                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] xl:font-semibold'>Contact</p>
+                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] xl:font-semibold'>Bosh sahifa</p>
+                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] xl:font-semibold'>Ustozlarimiz</p>
+                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] xl:font-semibold'>Kurslarimiz</p>
+                <p className=' text-[16px] text-[#232f55]  hover:text-[#FF1616] xl:font-semibold'>So'ngi qism</p>
             </div>
-            <div className='flex justify-between  '>
-                <button onClick={handleOpen} className='border bg-[#FF1616] text-[white] w-[220px] px-[25px] py-[8px] ml-[20px] rounded-[25px] font-semibold'>Biz bilan bog'laning</button>
+            <div className='flex xl:justify-between justify-center '>
+                <button onClick={handleOpen} className='border bg-[#FF1616] text-[white] w-[220px] px-[25px] py-[8px] xl:ml-[20px] rounded-[25px] font-semibold'>Biz bilan bog'laning</button>
                 <Modal
                     open={open}
                     onClose={handleClose}

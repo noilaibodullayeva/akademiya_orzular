@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -32,7 +32,7 @@ const style = {
     p: 4,
 };
 
-function Week() {
+function Ustozlarimiz() {
 
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
@@ -58,8 +58,8 @@ function Week() {
                             Indexdata.map((item) => {
                                 return (
                                     <SwiperSlide >
-                                        <div className='bg-[#edece8] flex xl:flex-row flex-col items-center justify-between xl:gap-[100px]  h-[400px] '>
-                                            <img src={item.img} alt="img book" className='py-[15px]  w-[300px] rounded-[50%] h-[300px] ' />
+                                        <div className='bg-[#edece8] flex xl:flex-row flex-col items-center justify-between xl:gap-[100px]  xl:h-[400px] h-[600px] '>
+                                            <img src={item.img} alt="img book" className='xl:py-[15px] py-[5px] xl:w-[350px] xl:h-[350px] w-[300px] h-[300px] rounded-[50%] ' />
                                             <div className=''>
                                                 <h1 className='text-[40px] text-[#000] font-semibold nameism '>{item.name}</h1>
                                                 <p className='text-18px  '>{item.position}</p>
@@ -105,11 +105,11 @@ function Week() {
                 </div>
             </div>
 
-            <div  className='xl:w-[30%] w-[100%]'>
-                <img src={Add} alt="" className='w-[100%] xl:h-[500px] pt-[20px] pb-[-20px]' />
+            <div  className='xl:w-[30%] w-[100%] '>
+                <img src={Add} alt="" className='swiperustoz ' />
             </div>
         </div>
     )
 }
 
-export default Week
+export default Ustozlarimiz

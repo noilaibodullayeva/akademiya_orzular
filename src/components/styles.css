@@ -6,7 +6,6 @@
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    /* background: #fff; */
 
     /* Center slide text vertically */
     display: flex;
@@ -69,6 +68,14 @@
     flex-direction: column;
     width: 600px;
   }
+  .swiperustoz{
+    /* display: flex; */
+    background-size: cover;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+  }
 
   @media only screen and (max-width: 380px) {
     .swiperback {
@@ -76,6 +83,10 @@
     }
 
     .swiperback2 {
+      display: none;
+    }
+
+    .swiperustoz{
       display: none;
     }
   }
@@ -88,6 +99,10 @@
     .swiperback2 {
       display: none;
     }
+
+    .swiperustoz{
+      display: none;
+    }
   }
 
 
@@ -98,10 +113,10 @@
 
 
   /* home page list finished */
-.homepageorzu{
+ .homepageorzu{
   font-family: "Playfair Display", serif;
-  font-size: 60px !important;
 }
+
 
 .nameism{
   font-family:serif;
@@ -145,33 +160,7 @@
   }
 
 
-  /* history  */
-
-  .back1History {
-    background-image: url(../assets/wants-bg1.jpg.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 250px;
-    justify-content: center;
-    color: #fff;
-    gap: 20px;
-  }
-
-  .back2History {
-    background-image: url(../assets/wants-bg2.jpg.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    height: 250px;
-    color: #fff;
-  }
+ 
 
   .viewbutton {
     background-color: #FC1616;
@@ -190,17 +179,6 @@
     }
   }
 
-  .historyback3 {
-    background-image: url(../assets/section-bg1.jpg.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 300px;
-    color: #fff;
-    justify-content: center;
-  }
 
 
   /* footer  */

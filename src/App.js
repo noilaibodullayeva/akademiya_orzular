@@ -1,22 +1,17 @@
 import './App.css';
-import BestSelling from './components/BestSelling';
-import History from './components/History';
-import Published from './components/Published';
-import Week from './components/Week';
-import Footer from './components/footer';
+import Courses from './components/Courses';
+import Ustozlarimiz from './components/ustozlarimiz';
 import Header from './components/header';
 import HomePageList1 from './components/homePageList1';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <HomePageList1/>
-      <Week/>
-      <Published/>
-      <History/>
-      <Footer/>
-      <p className='bg-[#FEF4F4] text-black text-center xl:px-0 px-[20px] py-[40px] font-semibold'>Copyright ©2024 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by Colorlib</p>
+      <Header />
+      <HomePageList1 />
+      <Ustozlarimiz />
+      <Courses />
+      <Header />
     </div>
   );
 }

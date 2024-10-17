@@ -43,8 +43,9 @@ function HomePageList1() {
                 modules={[Pagination]}
                 sx={{ backgroundColor: '#FEF4F4' }}
             >
+                
                 <SwiperSlide>
-                    <div className='h-[600px] xl:px-[100px] mx-[100px]'>
+                <div className='h-[600px] xl:px-[100px] mx-[100px]'>
                         <div
                             className='bg-[#FEF4F4] w-[100%] h-[600px] flex gap-[50px]'
                         >
